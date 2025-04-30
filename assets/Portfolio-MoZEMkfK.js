@@ -1,4 +1,4 @@
-import{r as at,g as gt,j as S}from"./index-B7vuMTDd.js";const Si="/assets/right-black-efortless-tech-C2f6P4ht.png",Ei="/assets/testimonials-black-CO5zpkts.png";function Pi(o,e){for(var n=0;n<e.length;n++){var t=e[n];t.enumerable=t.enumerable||!1,t.configurable=!0,"value"in t&&(t.writable=!0),Object.defineProperty(o,t.key,t)}}function Mi(o,e,n){return e&&Pi(o.prototype,e),o}/*!
+import{r as at,g as gt,j as S}from"./index-DuVYvzO3.js";const Si="/assets/right-black-efortless-tech-C2f6P4ht.png",Ei="/assets/testimonials-black-CO5zpkts.png";function Pi(o,e){for(var n=0;n<e.length;n++){var t=e[n];t.enumerable=t.enumerable||!1,t.configurable=!0,"value"in t&&(t.writable=!0),Object.defineProperty(o,t.key,t)}}function Mi(o,e,n){return e&&Pi(o.prototype,e),o}/*!
  * Observer 3.12.7
  * https://gsap.com
  *
