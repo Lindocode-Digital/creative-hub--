@@ -1,1 +1,0 @@
-import{j as t}from"./index-9weZkp1_.js";const r="/assets/right-black-efortless-tech-D91Cj7_V.png",a=({imgText:s,width:e="300px",height:n="250px"})=>t.jsx(t.Fragment,{children:t.jsx("img",{src:s,alt:"slogan",style:{width:`${e}`,height:`${n}`,objectFit:"contain"}})});export{a as I,r as s};
