@@ -18,24 +18,24 @@ It’s more than just a portfolio: it’s a responsive, scalable solution that m
 
 ## 🚀 Features
 
-&#x2705; 🧠 **Dynamic routing** with slug-based URLs
+- [x] 🧠 **Dynamic routing** with slug-based URLs
 
-&#x2705; ⏳ **Lazy-loaded components** using `React.lazy` & `Suspense`
+- [x] ⏳ **Lazy-loaded components** using `React.lazy` & `Suspense`
 
-&#x2705; 🖼️ **Smooth background transitions** per project
+- [x] 🖼️ **Smooth background transitions** per project
 
-&#x2705; 🧩 **Modular project pages**:
+- [x] 🧩 **Modular project pages**:
   - `Lazy Appz`: Stacked cards per category (web, games, mobile)
   
   - `PORTFOLIO`: Video intro, tech stack, testimonials, and contact
   
   - `Sdrow Vieli`: Carousel + tab-based layout
 
-&#x2705; ✨ **GSAP-powered UI animations**
+- [x] ✨ **GSAP-powered UI animations**
 
-&#x2705; 💌 **Formspree contact integration**
+- [x] 💌 **Formspree contact integration**
 
-&#x2705; 🎯 **Mobile-first design** with `useMediaQuery` via Material UI
+- [x] 🎯 **Mobile-first design** with `useMediaQuery` via Material UI
 
 ## Updates
 
