@@ -9,14 +9,17 @@
     <!-- ==================== -->
     <title>Lindocode Digital</title>
     <meta name="author" content="Lindo Matabane" />
-    <meta name="title" content="Creative Hub | Web & Mobile Development + more" />
+    <meta
+      name="title"
+      content="Creative Hub | Web & Mobile Development + more"
+    />
     <meta
       name="description"
       content="Explore interactive projects, creative tools, and apps built with modern technologies, and other creative ventures."
     />
     <meta
       name="keywords"
-      content="full-stack developer, web developer, mobile developer, react, react native, javascript, portfolio"
+      content="full-stack developer, web developer, mobile developer, react, react native, javascript, portfolio, creative-hub, lindocode digital, lazy appz, sdrow vieli"
     />
 
     <!-- ==================== -->
@@ -25,10 +28,7 @@
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://lindocode.com" />
     <meta property="og:title" content="Lindocode Digital" />
-    <meta
-      property="og:description"
-      content="Web & Mobile Development Portfolio"
-    />
+    <meta property="og:description" content="Web & Mobile Development" />
     <meta
       property="og:image"
       content="https://lindocode.com/social-preview.webp"
@@ -115,11 +115,29 @@
   </head>
 
   <body>
-    <noscript>
-      <strong
-        >This application requires JavaScript to function properly.</strong
-      >
-    </noscript>
+    <!-- 1. VISIBLE OPTION (Recommended) -->
+    <div id="seo-header" aria-label="Quick links">
+      <hr style="border-top: 1px solid #ddd; margin: 0.5em 0" />
+      <div style="text-align: center; padding: 0.5em 0">
+        <a href="/portfolio">Portfolio</a> |
+        <a href="/lazy-appz">Lazy Appz</a> |
+        <a href="/sdrow-vieli">Sdrow Vieli</a>
+      </div>
+      <hr style="border-top: 1px solid #ddd; margin: 0.5em 0" />
+    </div>
+
+    <!-- 2. HIDDEN BUT INDEXED OPTION (Alternative) -->
+    <div
+      style="position: absolute; left: -9999px; top: -9999px"
+      aria-hidden="true"
+    >
+      <hr />
+      Projects: <a href="/portfolio">Portfolio</a> |
+      <a href="/lazy-appz">Lazy Appz</a>
+      <hr />
+    </div>
+
+    <div id="root"></div>
     <div id="root"></div>
   </body>
 </html>
