@@ -42,7 +42,7 @@ It’s more than just a portfolio: it’s a responsive, scalable solution that m
 
 - [x] IOS (Safari) fix lack of pinning issue on scrolling
 
-- [x] Moved website deployment to different platform
+- [x] Move website deployment to different platform
 
 - [ ] Update Lazy Appz page:
 
