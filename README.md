@@ -38,14 +38,27 @@ It’s more than just a portfolio: it’s a responsive, scalable solution that m
 
 ## Updates
 
+- [x] Make page refresh work
+
+- [x] IOS (Safari) fix lack of pinning issue on scrolling
+
+- [x] Moved website deployment to different platform
+
+- [ ] Update Lazy Appz page:
+
+  - Add tabs for page
+  - Add content to the page
+
+- [ ] Update Portfolio page links to reference Lazy Appz
+
+- [ ] Update Sdrow Vieli page:
+
+  - Add content relative to the page
+
 - [ ] Make Fully Responsive:
 
-  - Landscape mobile:
+  - Landscape mobile
   - Main page portrait mobile
-
-- [ ] Make page refresh work
-
-- [ ] IOS (Safari) work smoothly
 
 ---
 
