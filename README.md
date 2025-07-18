@@ -44,12 +44,17 @@ It’s more than just a portfolio: it’s a responsive, scalable solution that m
 
 - [x] Move website deployment to different platform
 
+- [x] Added review & contributions section
+
+- [x] Added interactive stack visualizer
+
 - [ ] Update Lazy Appz page:
 
-  - Add tabs for page
-  - Add content to the page
+  - [ ] Add tabs for page
+  - [ ] Add content to the page
+  - [ ] Organize projects and details
 
-- [ ] Update Portfolio page links to reference Lazy Appz
+- [x] Update Portfolio page links to reference Lazy Appz
 
 - [ ] Update Sdrow Vieli page:
 
