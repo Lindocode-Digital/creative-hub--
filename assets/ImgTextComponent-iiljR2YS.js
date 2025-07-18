@@ -1,1 +1,0 @@
-import{j as t}from"./index-CiMnIOVJ.js";const r=({imgText:e,width:n="300px",height:o="250px"})=>t.jsx(t.Fragment,{children:t.jsx("img",{src:e,alt:"slogan",style:{width:`${n}`,height:`${o}`,objectFit:"contain"}})});export{r as I};
