@@ -17,24 +17,58 @@
     />
     <meta name="theme-color" content="#000000" />
 
-    <!-- ==================== -->
-    <!-- Primary Meta Tags -->
-    <!-- ==================== -->
-    <title>Lindocode Digital | Web & Mobile Development + more</title>
-    <meta name="author" content="Lindo Matabane" />
+    <!-- Default (fallback) metadata -->
+    <title>Lindocode Digital | Web & Mobile Development</title>
     <meta
       name="description"
-      content="Explore Lindocode Digital - a curated hub of interactive projects, creative tools, modern web and mobile apps, and experimental digital ventures built with full stack technologies"
+      content="Explore Lindocode Digital - Interactive projects, creative tools, and modern web/mobile apps."
     />
     <meta
       name="keywords"
-      content="full-stack developer, web developer, mobile developer, react, react native, javascript, portfolio, creative-hub, lindocode digital, lazy appz, sdrow vieli, Lindo Matabane"
+      content="web development, mobile apps, React, JavaScript, portfolio"
     />
-    <meta name="robots" content="index, follow" />
-    <script type="module" crossorigin src="/assets/index-DyiniHHH.js"></script>
+    <meta
+      property="og:title"
+      content="Lindocode Digital | Web & Mobile Development"
+    />
+    <meta
+      property="og:description"
+      content="Explore interactive projects, creative tools, and modern web/mobile apps built with full-stack technologies."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://lindocode.com" />
+    <meta
+      property="og:image"
+      content="https://lindocode.com/social-preview.jpg"
+    />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+
+    <!-- Canonical URL (dynamic via JS later) -->
+    <link rel="canonical" href="https://lindocode.com/" />
+
+    <!-- Helps Google understand this is a SPA -->
+    <meta name="fragment" content="!" />
+
+    <!-- Preload main routes -->
+    <link rel="preload" href="/portfolio" as="document" />
+    <link rel="preload" href="/lazy-appz" as="document" />
+    <link rel="preload" href="/sdrow-vieli" as="document" />
+    <script type="module" crossorigin src="/assets/index-Ci9CvihI.js"></script>
     <link rel="stylesheet" crossorigin href="/assets/index-DzQuKti6.css">
   </head>
   <body>
-    <div id="root"></div>
+    <div id="root">
+      <!-- Basic fallback for bots not running JS -->
+      <noscript>
+        <h1>Lindocode Digital</h1>
+        <p>Explore interactive, creative & modern technologies + more:</p>
+        <ul>
+          <li><a href="/portfolio">Portfolio</a></li>
+          <li><a href="/lazy-appz">Lazy Appz</a></li>
+          <li><a href="/sdrow-vieli">Sdrow Vieli</a></li>
+        </ul>
+      </noscript>
+    </div>
   </body>
 </html>
