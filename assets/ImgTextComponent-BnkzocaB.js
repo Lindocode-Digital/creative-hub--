@@ -1,0 +1,1 @@
+import{j as t}from"./index-D7L_GmAh.js";const s=({imgText:e,width:n="300px",height:o="250px"})=>t.jsx(t.Fragment,{children:t.jsx("img",{src:e,alt:"",style:{width:`${n}`,height:`${o}`,objectFit:"contain"}})});export{s as I};
