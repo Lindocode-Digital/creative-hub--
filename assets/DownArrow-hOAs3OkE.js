@@ -1,4 +1,4 @@
-import{j as e}from"./index-CF8hKIKJ.js";const f=({lines:n=["Where Bright","Ideas Come","to Play."],size:r=120,align:o="center",color:t="white",topOffset:s=0,lineSpacing:i=1.1,customSpacing:a="2px 2px"})=>e.jsxs("div",{style:{marginTop:s,textAlign:o,color:t,fontSize:r,fontFamily:"'Lemon Milk', sans-serif",fontWeight:500,lineHeight:i},children:[e.jsx("style",{children:`
+import{j as e}from"./index-BEKLPbA3.js";const f=({lines:n=["Where Bright","Ideas Come","to Play."],size:r=120,align:o="center",color:t="white",topOffset:s=0,lineSpacing:i=1.1,customSpacing:a="2px 2px"})=>e.jsxs("div",{style:{marginTop:s,textAlign:o,color:t,fontSize:r,fontFamily:"'Lemon Milk', sans-serif",fontWeight:500,lineHeight:i},children:[e.jsx("style",{children:`
           @font-face {
             font-family: 'Lemon Milk';
             src: url('/fonts/Lemon Milk Pro Regular.otf') format('opentype');
