@@ -2,91 +2,74 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link
-      rel="icon"
-      type="image/png"
-      href="/assets/favicon-96x96-Di-CGAsv.png"
-      sizes="96x96"
-    />
-    <link
-      rel="icon"
-      type="image/svg+xml"
-      href="/assets/favicon-CoLkLAoI.svg"
-    />
-    <link rel="shortcut icon" href="/assets/favicon-ClzAeF3c.ico" />
-    <link
-      rel="apple-touch-icon"
-      sizes="180x180"
-      href="/assets/apple-touch-icon-CWAsd7Jv.png"
-    />
-    <meta name="apple-mobile-web-app-title" content="MyWebSite" />
-    <link rel="manifest" href="/assets/site-9ZoHLRfL.webmanifest" />
-    <link rel="canonical" href="https://lindocode.com" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no"
-    />
 
-    <meta name="mobile-web-app-capable" content="yes" />
+    <!-- Responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <meta
-      name="apple-mobile-web-app-status-bar-style"
-      content="black-translucent"
-    />
+    <!-- Theme / PWA-ish -->
     <meta name="theme-color" content="#000000" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="Lindocode Digital" />
 
-    <!-- Default (fallback) metadata -->
+    <!-- Icons (Vite: public/ is served from /) -->
+    <link rel="icon" type="image/png" sizes="96x96" href="/assets/favicon/favicon-96x96.png" />
+    <link rel="icon" type="image/svg+xml" href="/assets/favicon/favicon.svg" />
+    <link rel="shortcut icon" href="/assets/favicon/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png" />
+    <link rel="manifest" href="/assets/favicon/site.webmanifest" />
+
+    <!-- Fallback SEO (Helmet will override on routes that render) -->
     <title>Lindocode Digital | Web & Mobile Development</title>
     <meta
       name="description"
-      content="Trading as Lazy AppZzz we deliver smart, scalable digital solutions. Specialising in modern web and mobile app development, databases,automation, and API integration."
+      content="Trading as Lazy Appz / Lazy AppZzz — smart, scalable web & mobile development, automation, APIs, and databases."
     />
     <meta
       name="keywords"
-      content="web development, mobile apps, React, JavaScript, portfolio"
+      content="Lindocode Digital, Lazy Appz, web development, mobile apps, React, JavaScript, South Africa"
     />
-    <meta
-      property="og:title"
-      content="Lindocode Digital | Web & Mobile Development"
-    />
+
+    <!-- Canonical (pick ONE strategy) -->
+    <link rel="canonical" href="https://lindocode.com/" />
+
+    <!-- Social cards (fallback) -->
+    <meta property="og:site_name" content="Lindocode Digital" />
+    <meta property="og:title" content="Lindocode Digital | Web & Mobile Development" />
     <meta
       property="og:description"
       content="Explore interactive projects, creative tools, and modern web/mobile apps built with full-stack technologies."
     />
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://lindocode.com" />
-    <meta
-      property="og:image"
-      content="https://lindocode.com/social-preview.jpg"
-    />
+    <meta property="og:url" content="https://lindocode.com/" />
+    <meta property="og:image" content="https://lindocode.com/social-preview.jpg" />
+    <meta property="og:image:alt" content="Lindocode Digital preview image" />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
 
-    <!-- Canonical URL (dynamic via JS later) -->
-    <link rel="canonical" href="https://lindocode.com/" />
-
-    <!-- Helps Google understand this is a SPA -->
-    <meta name="fragment" content="!" />
-
-    <!-- Preload main routes -->
-    <link rel="preload" href="/portfolio" as="document" />
-    <link rel="preload" href="/lazy-appz" as="document" />
-    <link rel="preload" href="/sdrow-vieli" as="document" />
-    <script type="module" crossorigin src="/assets/index-DUZrSSYN.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-eR1XO9kE.css">
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Lindocode Digital | Web & Mobile Development" />
+    <meta
+      name="twitter:description"
+      content="Explore interactive projects, creative tools, and modern web/mobile apps built with full-stack technologies."
+    />
+    <meta name="twitter:image" content="https://lindocode.com/social-preview.jpg" />
+    <script type="module" crossorigin src="/assets/index-TxdL1Q4j.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-ChbtIOUe.css">
   </head>
+
   <body>
-    <div id="root">
-      <!-- Basic fallback for bots not running JS -->
-      <noscript>
-        <h1>Lindocode Digital</h1>
-        <p>Explore interactive, creative & modern technologies + more:</p>
-        <ul>
-          <li><a href="/portfolio">Portfolio</a></li>
-          <li><a href="/lazy-appz">Lazy Appz</a></li>
-          <li><a href="/sdrow-vieli">Sdrow Vieli</a></li>
-        </ul>
-      </noscript>
-    </div>
+    <div id="root"></div>
+
+    <noscript>
+      <h1>Lindocode Digital</h1>
+      <p>Explore interactive projects and modern web/mobile work:</p>
+      <ul>
+        <li><a href="/portfolio">Portfolio</a></li>
+        <li><a href="/lazy-appz">Lazy Appz</a></li>
+        <li><a href="/sdrow-vieli">Sdrow Vieli</a></li>
+      </ul>
+    </noscript>
   </body>
 </html>
