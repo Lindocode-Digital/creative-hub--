@@ -6,7 +6,7 @@
 
 ## 💭 Vision
 
-**Creative Hub** is envisioned as a centralized, elegant platform for showcasing my creative work — built to be as intuitive to navigate as it is powerful to experience.
+**Creative Hub** is envisioned as a centralized, elegant platform for showcasing my creative work, built to be as intuitive to navigate as it is powerful to experience.
 
 It’s more than just a portfolio: it’s a responsive, scalable solution that merges form and function. As development progresses, I plan to fully migrate my existing projects and digital presence into this unified space to improve accessibility, performance, and presentation across devices and users.
 
@@ -51,19 +51,19 @@ It’s more than just a portfolio: it’s a responsive, scalable solution that m
 - [ ] Update Lazy Appz page:
 
   - [ ] Add tabs for page
-  - [ ] Add content to the page
-  - [ ] Organize projects and details
+  - [x] Add content to the page
+  - [x] Organize projects and details
 
 - [x] Update Portfolio page links to reference Lazy Appz
 
-- [ ] Update Sdrow Vieli page:
+- [x] Update Sdrow Vieli page:
 
-  - Add content relative to the page
+  - [ ] Add content relative to the page
 
-- [ ] Make Fully Responsive:
+- [x] Make Fully Responsive:
 
-  - Landscape mobile
-  - Main page portrait mobile
+  - [x] Landscape mobile
+  - [x]Main page portrait mobile
 
 ---
 
@@ -97,29 +97,6 @@ src/
 Routing is dynamically matched using slugs generated from project titles.
 
 ---
-
-## 📥 Installation
-
-### 1. Clone the Repo
-
-```
-git clone https://github.com/your-username/creativehub.git
-cd creativehub
-```
-
-### 2. Install dependencies
-
-```
-npm install
-```
-
-### 3. Start Development Server
-
-```
-npm run dev
-```
-
-_App will be served at: http://localhost:5173_
 
 ## 🧪 Contact Form Setup
 
